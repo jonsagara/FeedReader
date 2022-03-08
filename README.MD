@@ -1,8 +1,19 @@
 # *** Forked Version ***
 
-This is a heavily-modified fork of the official repository. Please refer to the original repo, upon which the `CodeHollow.FeedReader` nuget package is based:
+This is a heavily-modified fork of the official repository.
 
-https://github.com/arminreiter/FeedReader
+For production use, please use the excellent original version:
+
+* Repo: https://github.com/arminreiter/FeedReader
+* nuget: https://www.nuget.org/packages/CodeHollow.FeedReader/
+
+I have no plans to create and release a separate nuget package for this repository. That would cause unnecessary confusion.
+
+The main changes I made:
+
+* Target `.NET 6.0` and `C# 10` only
+* Add an instance-based API that you can use with .NET dependency injection
+* Add an overload that parses feed content from a `Stream`
 
 Original readme follows.
 
